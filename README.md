@@ -18,4 +18,4 @@ In your text input field, you can enter either minutes per kilometre pace `{{6:0
 Add [this extension method](code/PaceConvertionExtension.cs) to your project and then when you normally output your text, you add `.ConvertPace()` to the end.
 e.g. `Model.TextBlock.ConvertPace()`
 
-The method then looks for the patter `{{}}` or `{{,mi}}` and outputs the pace entered but also the converted pace. 
+The method then looks for the pattern `{{00:00}}` or `{{00:00,mi}}` and outputs the pace entered but also the converted pace. Replace 00:00 with the pace in question.
